@@ -1,0 +1,275 @@
+/* /////////////// */
+/* /////////////// */
+/* News page layout */
+/* /////////////// */
+body.page-template-template-level1-php h1.entry-title,
+body.page-template-template-level1-php #wpseobreadcrumb { display: none; }
+body.page-template-template-level1-php #page-top { margin-top: 5px; }
+body.page-template-template-level1-php #page-bottom { width:100%;padding:0;margin:0; }
+
+#query-posts-7
+{
+	display: block;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 630px;
+	max-height:500px;
+	overflow: hidden;
+}
+
+#query-posts-7 .hentry
+{
+	width: 630px;
+	margin: 0;
+	padding: 0;
+}
+
+#query-posts-7 .wp-post-image
+{
+}
+
+#query-posts-7 h2.entry-title 
+{ 
+	padding-top: 15px; 
+	font-size:22px;
+	letter-spacing:-0.05em;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+}
+#query-posts-7 h2.entry-title a:link,
+#query-posts-7 h2.entry-title a:visited
+{ 
+	color:#000;
+}
+#query-posts-7 h2.entry-title a:hover,
+#query-posts-7 h2.entry-title a:active
+{ 
+	color:#ff4a22;
+}
+#query-posts-7 p.byline 
+{ 
+	width:155px; 
+	float:left;
+	clear:left;
+}
+#query-posts-7 .entry-summary 
+{ 
+	color: #444; 
+	width: 530px;
+	float:left;
+	clear:right;
+}
+
+#featured-stories-nav
+{
+	float: left;
+	clear: left;
+	width: 620px;
+	text-align: left;
+	padding: 0 0 30px 0;
+}
+
+#featured-stories-nav a:link, #featured-stories-nav a:visited
+{
+	font-weight: bold;
+	background: #bebfc0;
+	color: #000;
+	margin: 0 2px;
+	padding: 4px 9px;
+	border-radius: 15px;
+	text-decoration:none;
+}
+
+#featured-stories-nav a:hover, #featured-stories-nav a:active
+{
+	background: #686b6d;
+	text-decoration: none;
+	color: #fff;
+}
+
+#featured-stories-nav a.activeSlide
+{
+	background: #00B5DD;
+	color: #fff;
+}
+
+/* Latest News Short List */
+
+#query-posts-5
+{
+	position: absolute;
+	top: 0px;
+	left: 660px;
+	width: 300px;
+}
+
+#query-posts-5 img
+{
+	float: left;
+	margin-right: 10px;
+}
+
+#query-posts-5 .hentry
+{
+	padding: 10px;
+	border-bottom: 1px solid #c3d5d9;
+}
+
+#query-posts-5 h4.entry-title
+{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	width: 220px;
+	line-height: 1.2em;
+}
+
+#query-posts-5 h4 a
+{
+	display: table-cell;
+	vertical-align: middle;
+	height: 50px;
+	width: 220px;
+}
+
+#query-posts-5 .hentry:hover { background-color: #f9f9f9; }
+
+
+/* Latest from Your Home Magazine */
+#query-posts-62 
+{
+	float:left;
+	clear:both;
+	width: 100%;
+}
+#query-posts-62 ul
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	clear:both;
+	margin:10px 0;
+}
+#query-posts-62 ul::after
+{
+	content:" ";
+	display:block;
+	border-bottom:1px solid #ccc;
+	clear:both;
+	width:100%;
+	margin-bottom:30px;
+	
+}
+#query-posts-62 li.hentry
+{
+	width:300px;
+	float:left;
+	margin-left:30px;
+}
+#query-posts-62 li.hentry:first-child 
+{
+	margin-left:0;
+
+}
+#query-posts-62 h2.entry-title
+{
+	font-size: 18px;
+	letter-spacing: -0.05em;
+	font-family: 'Gotham SSm A', 'Gotham SSm B', Helvetica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+}
+#query-posts-62 h2.entry-title a:link,
+#query-posts-62 h2.entry-title a:visited
+{ 
+	color:#000;
+}
+#query-posts-62 h2.entry-title a:hover,
+#query-posts-62 h2.entry-title a:active
+{ 
+	color:#ff4a22;
+}
+#query-posts-62 .entry-summary
+{
+}
+
+
+/* Actual news page content */
+#post-35, #post-35 .entry-content
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Youtube playlist */
+
+#page-bottom #text-16
+{
+	width:630px;
+	margin:0;
+	padding:0;
+	float:left;
+}
+#page-bottom #text-16 .textwidget
+{
+	width:630px;
+	margin:0;
+	padding:0;
+}
+
+/* Tweets */
+#twitter-2
+{
+	width: 300px;
+	float: left;
+	margin-left:30px;
+}
+
+#twitter-2 ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#twitter-2 li
+{
+	font-size: 13px;
+	line-height: 1.25em;
+	margin: 0;
+	vertical-align: middle;
+	padding: 10px;
+	border-bottom: 1px solid #c3d5d9;
+}
+
+#twitter-2 span.entry-content
+{
+	display: block;
+	padding: 0;
+}
+
+#twitter-2 span.entry-meta
+{
+	display: block;
+	margin-top: 5px;
+	font-style: normal;
+	text-align: right;
+}
+
+#twitter-2 .follow-button
+{
+	text-align: center;
+	padding-top: 10px;
+}

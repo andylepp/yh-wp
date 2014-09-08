@@ -1,0 +1,32 @@
+/* Subscribe to updates test styles */
+#input_48_6 .gchoice_6_0,
+#input_48_6 .gchoice_6_1 {
+	display:none;
+}
+/* END Subscribe to updates test styles */
+/* Social Media Menu Links */
+div.menu-social-profiles-container {
+float:right;
+}
+#menu-social-profiles{
+margin: 0;
+}
+#menu-social-profiles a:link,
+#menu-social-profiles a:visited
+{
+color:#bebfc0;
+}
+#menu-social-profiles a:hover,
+#menu-social-profiles a:active
+{
+color:#686b6d;
+}
+#menu-social-profiles li {
+float:left;
+margin-left: 7px;
+}
+div.menu-top-container {
+margin-top:0;
+}
+
+/* END Social Media Menu Links */

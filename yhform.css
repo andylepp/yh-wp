@@ -1,0 +1,242 @@
+/* Budget Form */
+#gform_wrapper_32.gform_wrapper {
+	color: rgb(34,69,73); /* dark blue */
+	background-color: rgb(94,137,140); /* light blue */
+	border:0px;
+	margin-top:0;
+}
+#gform_wrapper_32.gform_wrapper .gform_page_footer {
+	width:100%;
+	display:inline-block;
+}
+/* steps section in header */
+#gform_wrapper_32.gform_wrapper .gf_page_steps {
+	border:0;
+	padding:1em 0;
+}
+/* An individual step */
+#gform_wrapper_32 .gf_step {
+	color: rgb(34,69,73); /* dark blue */
+	display: block;
+	float:left;
+	width: 22% !important;
+	margin: 10px 0 22px 2%;
+	height: auto;
+	line-height: auto !important;
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	font-size: 1.2em;
+	padding:0.5em 0;
+}
+#gform_wrapper_32 .gf_step_number {
+
+}
+#gf_page_steps_32 .gf_step_active {
+	color: rgb(255,238,200) !important; /* sand */
+	font-weight:bold;
+	background-color: rgb(34,69,73); /* dark blue */
+	padding:0.5em 2%;
+}
+/* Form labels */
+#gform_wrapper_32.gform_wrapper ul.gfield_radio li input[type="radio"]:checked+label, #gform_wrapper_32.gform_wrapper ul.gfield_checkbox li input[type="checkbox"]:checked+label {
+	font-family:"FS Me Web Bold", Helvetica, Arial, Verdana, sans-serif;
+}
+#gform_wrapper_32.gform_wrapper .left_label .gfield_label {
+	margin: 2px 0px 2px 2%;
+	width: 70%;
+	background-color: rgb(255,238,200); /* sand */
+	font-size: 130% !important;
+	padding: 2px 0 2px 10px !important;
+	border: 2px solid rgb(255,238,200) !important; /*sand */
+	display:table-cell;
+}
+#gform_wrapper_32.gform_wrapper .left_label .plain .gfield_label {
+	margin-bottom: 0;
+	width: 91%;
+}
+#gform_wrapper_32.gform_wrapper .left_label ul.gfield_checkbox {
+	margin: 0 0px 2px 2% !important;
+	width: 91%;
+	background-color: rgb(255,238,200); /* sand */
+	font-size: 110% !important;
+	padding: 2px 0 2px 10px !important;
+	border: 2px solid rgb(255,238,200) !important; /*sand */
+	color: rgb(34,69,73); /* dark blue */
+	float:left;
+	clear:both;
+}
+/* Form Inputs */
+
+#gform_wrapper_32.gform_wrapper input[type="text"] {
+	font-size: 15px !important;
+	padding: 2px !important;
+	border: 2px solid rgb(255,238,200) !important; /*sand */
+	margin: 2px 2% 2px 0px;
+	display:table-cell;
+}
+#gform_wrapper_32.gform_wrapper input[type="text"]:focus {
+	background-color: rgb(176,255,255); /* very light blue */
+}
+#gform_wrapper_32.gform_wrapper .left_label input[type="text"].small {
+	width: 20%;
+}
+#gform_wrapper_32.gform_wrapper .left_label input[type="text"].large {
+	width: 60%;
+}
+#gform_wrapper_32.gform_wrapper .left_label #field_32_93 .gfield_label,
+#gform_wrapper_32.gform_wrapper .left_label #field_32_98 .gfield_label,
+#gform_wrapper_32.gform_wrapper .left_label #field_32_99 .gfield_label {
+	width: 30%;
+}
+
+/* Label and field list container */
+#gform_wrapper_32.gform_wrapper ul.left_label li, 
+#gform_wrapper_32.gform_wrapper form ul.left_label li,
+#gform_wrapper_32.gform_wrapper ul li.gfield {
+	margin-bottom: 2px;
+	padding:0;
+}
+/* Total fields have a blue background and special red border */
+#gform_wrapper_32.gform_wrapper .left_label .total .gfield_label {
+	color: rgb(255,238,200); /*sand */
+	border-color: rgb(34,69,73)  !important; /* dark blue */
+	background-color: rgb(34,69,73); /* dark blue */
+}
+#gform_wrapper_32.gform_wrapper .left_label .total input.small,
+#gform_wrapper_32.gform_wrapper .total input[type="text"] {
+	border-color: rgb(235,54,0) !important; /* Red */
+}
+/* Step 4 Total (and Other Orgs) has a big bottom-margin */
+#gform_wrapper_32.gform_wrapper li#field_32_71.gfield,
+#gform_wrapper_32.gform_wrapper li#field_32_82.gfield {
+	margin-bottom: 3em;
+}
+
+/* "disabled" fields don't allow input */
+#gform_wrapper_32.gform_wrapper .left_label .disabled .gfield_label,
+#gform_wrapper_32.gform_wrapper .left_label .disabled input.small[type="text"],
+#gform_wrapper_32.gform_wrapper .left_label .disabled input.small[type="text"]:focus {
+	color: rgb(255,238,200); /*sand */
+	background-color: rgb(34,69,73); /* dark blue */
+	border-color: rgb(34,69,73) !important; /* dark blue */
+}
+
+/* section titles */
+#gform_wrapper_32.gform_wrapper .gsection {
+	border:0 !important;
+	padding: 0;
+	margin: 0;
+	position:relative;
+	height:auto;
+	clear:both;
+}
+#gform_wrapper_32.gform_wrapper h2.gsection_title {
+	color: rgb(255,238,200); /*sand */
+	background-color: rgb(34,69,73); /* dark blue */
+	font-size: 130% !important;
+	padding: 2px 0 2px 10px !important;
+	border: 2px solid rgb(34,69,73) !important; /* dark blue */
+	display:table-cell;
+	width: 91%;
+	font-weight: bold;
+	font-size: 1.3em;
+	position:absolute;
+	bottom:2px;
+	left:2%;
+}
+#gform_wrapper_32.gform_wrapper .gsection_description {
+	min-height:120px;
+	margin-left:2%;
+	width: 91%;
+	padding:0 0 40px 10px;
+	font-size: 1em;
+	color: rgb(255,255,255); /*sand */
+	background: url('images/budget-man.png') no-repeat bottom left;
+}
+#gform_wrapper_32.gform_wrapper .gsection_description p {
+	margin-left: 120px;
+}
+#gform_wrapper_32.gform_wrapper .gsection.normal {
+	border:0 !important;
+	padding: 0;
+	margin: 0;
+	position:relative;
+	height:auto;
+	clear:both;
+}
+
+/* buttons */
+#gform_wrapper_32.gform_wrapper input.button {
+	background:  rgb(34,69,73); /* dark blue */
+	color: #fff;
+	padding: 7px 20px;
+	font-size: 160%;
+	text-align: center;
+	border: rgb(34,69,73)  3px solid !important; /* dark blue */
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	text-shadow: -1px -1px 1px rgb(34,69,73);
+	display: inline-block;
+	margin:2%;
+}
+#gform_wrapper_32.gform_wrapper input.button:hover {
+	background-color: rgb(94,137,140); /* light blue */
+}
+#gform_wrapper_32.gform_wrapper input.button.gform_next_button {
+	float:right;
+}
+
+/* final page settings */
+#gform_wrapper_32.gform_wrapper ul li.gfield_html {
+	margin: 0 0px 2px 2% !important;
+	width: 91%;
+	background-color: rgb(255,238,200); /* sand */
+	font-size: 130% !important;
+	padding: 2px 0 2px 10px !important;
+	border: 2px solid rgb(255,238,200) !important; /* sand */	
+}
+#gform_wrapper_32.gform_wrapper ul li.gfield_html p {
+	margin: 1em;
+}
+#gform_wrapper_32.gform_wrapper ul li#field_32_84 {
+	background-color: rgb(242, 162, 140); /* pink */
+	border-color: rgb(242, 162, 140) !important; /* pink */
+}
+#gform_wrapper_32.gform_wrapper ul li#field_32_83 {
+	background-color: rgb(189, 225, 149); /* green */
+	border-color: rgb(189, 225, 149) !important; /* green */
+	float:left;
+	margin-top:3em !important;
+}
+#gform_wrapper_32.gform_wrapper ul li#field_32_100 {
+	background-color: rgb(188, 161, 25); /* orange */
+	border-color: rgb(188, 161, 25) !important; /* orange */
+	float:left;
+	margin-top:3em !important;
+}
+#gform_submit_button_32 {
+	float: right;
+	margin-right: 43%;
+}
+
+/* Confirmation Message */
+#gform_confirmation_wrapper_32 {
+	background-color: rgb(94,137,140); /* light blue */
+	border:0px;
+	margin-top:0;
+}
+#gform_confirmation_message_32 {
+	min-height:100px;
+	margin-left:2%;
+	width: 91%;
+	padding:20px 0 40px 10px;
+	font-size: 1.3em;
+	color: rgb(255,255,255); /*sand */
+	background: url('images/budget-man.png') no-repeat 10px 30px;
+}
+#gform_confirmation_message_32 p {
+	margin: 20px 120px;
+}
+
